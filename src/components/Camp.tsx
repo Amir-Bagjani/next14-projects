@@ -76,6 +76,29 @@ export const Camp = () => {
           peopleJoined="50+ Joined"
         />
       </div>
+
+
+
+      <div className=" flex items-center justify-end
+       px-6 mt-10 lg:-mt-60 lg:mr-6">
+        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[700px]
+        xl:rounded-5xl xl:px-16 xl:py-20 w-full relative rounded-3xl overflow-hidden
+        ">
+           <h2 className="text-white regular-24 md:regular-32 2xl:regular-64">
+            <strong>Feeling Lost</strong> And Not Knowing The Way?
+          </h2>
+          <p className="text-white regular-14 mt-5 xl:regular-16">
+            Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure
+          </p>
+         <Image 
+            src="/quote.svg"
+            alt="camp-2"
+            width={186}
+            height={219}
+            className="camp-quote"
+          />
+        </div>
+      </div>
     </div>
   );
 };
